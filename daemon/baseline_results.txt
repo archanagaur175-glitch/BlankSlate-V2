@@ -1,0 +1,84 @@
+PHASE 1 BASELINE BENCHMARK — small.en CPU int8
+======================================================================
+
+File: 01_wake_word.wav
+  Description: Wake word only
+  Expected: 'Blank Slate'
+  Got: 'BlankSlate'
+  Latency: 2.268s
+  Accuracy: 100%
+  BlankSlate correct: True
+
+File: 02_wake_command.wav
+  Description: Wake word + command
+  Expected: 'Blank Slate, open notepad'
+  Got: 'BlankSlate, open notepad'
+  Latency: 2.319s
+  Accuracy: 100%
+  BlankSlate correct: True
+
+File: 03_command_only.wav
+  Description: Command without wake word
+  Expected: 'Open notepad'
+  Got: 'Open Notepad'
+  Latency: 2.134s
+  Accuracy: 100%
+  BlankSlate correct: False
+
+File: 04_switch_window.wav
+  Description: Window switching command
+  Expected: 'Switch to Chrome'
+  Got: 'Switch to CRO'
+  Latency: 2.071s
+  Accuracy: 67%
+  BlankSlate correct: False
+
+File: 05_type_text.wav
+  Description: Text injection command
+  Expected: 'Type hello world'
+  Got: 'Type Hello World'
+  Latency: 2.030s
+  Accuracy: 100%
+  BlankSlate correct: False
+
+File: 06_list_windows.wav
+  Description: Query command
+  Expected: 'List all open windows'
+  Got: 'List all open windows'
+  Latency: 2.144s
+  Accuracy: 100%
+  BlankSlate correct: False
+
+File: 07_get_time.wav
+  Description: Time query
+  Expected: 'What time is it'
+  Got: 'What time is it?'
+  Latency: 2.058s
+  Accuracy: 100%
+  BlankSlate correct: False
+
+File: 08_background_noise.wav
+  Description: Longer command (noise simulation)
+  Expected: "Blank Slate, what's the weather like today"
+  Got: "What's the weather like today?"
+  Latency: 2.316s
+  Accuracy: 71%
+  BlankSlate correct: False
+
+File: 09_pause_speech.wav
+  Description: Command with pause
+  Expected: 'Blank Slate... open notepad'
+  Got: 'BlankSlate, open notepad'
+  Latency: 2.144s
+  Accuracy: 75%
+  BlankSlate correct: True
+
+File: 10_adversarial.wav
+  Description: Adversarial phonetic
+  Expected: 'Hey Blank Slate, can you open the notepad application please'
+  Got: 'Hey BlankSlate, can you open the notepad application please?'
+  Latency: 2.453s
+  Accuracy: 100%
+  BlankSlate correct: True
+
+SUMMARY: avg latency=2.194s, avg accuracy=91%, BlankSlate=4/10

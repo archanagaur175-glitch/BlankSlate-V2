@@ -1,0 +1,1 @@
+"""Guardrail / context-safety subsystem."""

@@ -1,0 +1,85 @@
+{
+  "notepad": {
+    "name": "Notepad",
+    "aliases": ["text editor"]
+  },
+  "chrome": {
+    "name": "Google Chrome",
+    "aliases": ["browser", "google"]
+  },
+  "cursor": {
+    "name": "Cursor",
+    "aliases": ["code editor"]
+  },
+  "explorer": {
+    "name": "File Explorer",
+    "aliases": ["file manager", "files"]
+  },
+  "winword": {
+    "name": "Microsoft Word",
+    "aliases": ["word", "microsoft word", "document"]
+  },
+  "powerpnt": {
+    "name": "Microsoft PowerPoint",
+    "aliases": ["powerpoint", "microsoft powerpoint", "presentation", "slides"]
+  },
+  "excel": {
+    "name": "Microsoft Excel",
+    "aliases": ["microsoft excel", "spreadsheet"]
+  },
+  "msaccess": {
+    "name": "Microsoft Access",
+    "aliases": ["microsoft access", "database"]
+  },
+  "outlook": {
+    "name": "Microsoft Outlook",
+    "aliases": ["microsoft outlook", "email", "mail"]
+  },
+  "mspub": {
+    "name": "Microsoft Publisher",
+    "aliases": ["microsoft publisher", "publishing"]
+  },
+  "visio": {
+    "name": "Microsoft Visio",
+    "aliases": ["microsoft visio", "diagram"]
+  },
+  "calculator": {
+    "name": "Calculator",
+    "aliases": ["calc"],
+    "uwp": "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"
+  },
+  "paint": {
+    "name": "Paint",
+    "aliases": ["mspaint", "drawing"],
+    "uwp": "Microsoft.Paint_8wekyb3d8bbwe!App"
+  },
+  "photos": {
+    "name": "Photos",
+    "aliases": ["picture", "pictures", "image viewer"],
+    "uwp": "Microsoft.Windows.Photos_8wekyb3d8bbwe!App"
+  },
+  "alarms": {
+    "name": "Alarms & Clock",
+    "aliases": ["alarm", "clock", "timer"],
+    "uwp": "Microsoft.WindowsAlarms_8wekyb3d8bbwe!App"
+  },
+  "camera": {
+    "name": "Camera",
+    "aliases": ["webcam"],
+    "uwp": "Microsoft.WindowsCamera_8wekyb3d8bbwe!App"
+  },
+  "snippingtool": {
+    "name": "Snipping Tool",
+    "aliases": ["screenshot", "snip", "screen capture"],
+    "uwp": "Microsoft.ScreenSketch_8wekyb3d8bbwe!App"
+  },
+  "terminal": {
+    "name": "Windows Terminal",
+    "aliases": ["cmd", "command prompt", "console"],
+    "uwp": "Microsoft.WindowsTerminal_8wekyb3d8bbwe!wt"
+  },
+  "brave": {
+    "name": "Brave Browser",
+    "aliases": ["brave browser"]
+  }
+}

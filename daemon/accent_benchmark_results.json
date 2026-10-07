@@ -1,0 +1,329 @@
+{
+  "tiny.en": {
+    "load_time": 1.674689769744873,
+    "avg_latency": 0.27969334125518797,
+    "avg_accuracy": 0.9733333333333334,
+    "blankslate_pass": 4,
+    "chrome_pass": 3,
+    "results": [
+      {
+        "filename": "accent_01_wake_alone.wav",
+        "description": "Wake word alone",
+        "expected": "Blank Slate",
+        "transcription": "BlankSlate",
+        "latency": 0.500648021697998,
+        "accuracy": 1.0,
+        "blankslate": true,
+        "chrome": false
+      },
+      {
+        "filename": "accent_02_wake_command.wav",
+        "description": "Wake + command",
+        "expected": "Blank Slate, open notepad",
+        "transcription": "BlankSlate, Open Notepad.",
+        "latency": 0.2241358757019043,
+        "accuracy": 1.0,
+        "blankslate": true,
+        "chrome": false
+      },
+      {
+        "filename": "accent_03_retroflex_t.wav",
+        "description": "Retroflex T/D",
+        "expected": "switch to Chrome and type the text",
+        "transcription": "Switch to Chrome and type the text.",
+        "latency": 0.21008920669555664,
+        "accuracy": 1.0,
+        "blankslate": false,
+        "chrome": true
+      },
+      {
+        "filename": "accent_04_consonant_cluster.wav",
+        "description": "Consonant clusters",
+        "expected": "list all the open windows and switch between them",
+        "transcription": "List all the open windows and switch between them.",
+        "latency": 0.24951386451721191,
+        "accuracy": 1.0,
+        "blankslate": false,
+        "chrome": false
+      },
+      {
+        "filename": "accent_05_app_names.wav",
+        "description": "App names",
+        "expected": "open Visual Studio Code and switch to Chrome",
+        "transcription": "Open Visual Studio Code and Switch to Chrome",
+        "latency": 0.24537944793701172,
+        "accuracy": 1.0,
+        "blankslate": false,
+        "chrome": true
+      },
+      {
+        "filename": "accent_06_longer_command.wav",
+        "description": "Longer command",
+        "expected": "Blank Slate, can you please open the notepad application and type hello world in it",
+        "transcription": "Can you please open the Notepad application and type hello world in it?",
+        "latency": 0.30207228660583496,
+        "accuracy": 0.8666666666666667,
+        "blankslate": false,
+        "chrome": false
+      },
+      {
+        "filename": "accent_07_conversational.wav",
+        "description": "Conversational",
+        "expected": "hey Blank Slate what time is it right now",
+        "transcription": "Hey BlankSlate, what time is it right now?",
+        "latency": 0.24156928062438965,
+        "accuracy": 1.0,
+        "blankslate": true,
+        "chrome": false
+      },
+      {
+        "filename": "accent_08_noise_accent.wav",
+        "description": "Noise + accent",
+        "expected": "Blank Slate open the Chrome browser and search for something",
+        "transcription": "Blankslate open the Chrome browser and search for something.",
+        "latency": 0.33254456520080566,
+        "accuracy": 1.0,
+        "blankslate": true,
+        "chrome": true
+      },
+      {
+        "filename": "accent_09_proper_noun.wav",
+        "description": "Proper noun: Cursor",
+        "expected": "switch to Cursor and open the terminal",
+        "transcription": "Switch to cursor and open the terminal",
+        "latency": 0.21672892570495605,
+        "accuracy": 1.0,
+        "blankslate": false,
+        "chrome": false
+      },
+      {
+        "filename": "accent_10_full_command.wav",
+        "description": "Complex command",
+        "expected": "Blank Slate, list all the open windows, then switch to notepad and type some text",
+        "transcription": "List all the open windows, then switch to Notepad and type some text.",
+        "latency": 0.27425193786621094,
+        "accuracy": 0.8666666666666667,
+        "blankslate": false,
+        "chrome": false
+      }
+    ]
+  },
+  "small.en": {
+    "load_time": 2.3240325450897217,
+    "avg_latency": 0.506040072441101,
+    "avg_accuracy": 0.975,
+    "blankslate_pass": 6,
+    "chrome_pass": 3,
+    "results": [
+      {
+        "filename": "accent_01_wake_alone.wav",
+        "description": "Wake word alone",
+        "expected": "Blank Slate",
+        "transcription": "BlankSlate",
+        "latency": 0.39061617851257324,
+        "accuracy": 1.0,
+        "blankslate": true,
+        "chrome": false
+      },
+      {
+        "filename": "accent_02_wake_command.wav",
+        "description": "Wake + command",
+        "expected": "Blank Slate, open notepad",
+        "transcription": "BlankSlate Open Notepad",
+        "latency": 0.4707057476043701,
+        "accuracy": 0.75,
+        "blankslate": true,
+        "chrome": false
+      },
+      {
+        "filename": "accent_03_retroflex_t.wav",
+        "description": "Retroflex T/D",
+        "expected": "switch to Chrome and type the text",
+        "transcription": "Switch to Chrome and type the text.",
+        "latency": 0.4571518898010254,
+        "accuracy": 1.0,
+        "blankslate": false,
+        "chrome": true
+      },
+      {
+        "filename": "accent_04_consonant_cluster.wav",
+        "description": "Consonant clusters",
+        "expected": "list all the open windows and switch between them",
+        "transcription": "List all the open windows and switch between them.",
+        "latency": 0.4616868495941162,
+        "accuracy": 1.0,
+        "blankslate": false,
+        "chrome": false
+      },
+      {
+        "filename": "accent_05_app_names.wav",
+        "description": "App names",
+        "expected": "open Visual Studio Code and switch to Chrome",
+        "transcription": "Open Visual Studio Code and switch to Chrome.",
+        "latency": 0.48017382621765137,
+        "accuracy": 1.0,
+        "blankslate": false,
+        "chrome": true
+      },
+      {
+        "filename": "accent_06_longer_command.wav",
+        "description": "Longer command",
+        "expected": "Blank Slate, can you please open the notepad application and type hello world in it",
+        "transcription": "BlankSlate, can you please open the Notepad application and type hello world in it?",
+        "latency": 0.6705443859100342,
+        "accuracy": 1.0,
+        "blankslate": true,
+        "chrome": false
+      },
+      {
+        "filename": "accent_07_conversational.wav",
+        "description": "Conversational",
+        "expected": "hey Blank Slate what time is it right now",
+        "transcription": "Hey BlankSlate, what time is it right now?",
+        "latency": 0.5059239864349365,
+        "accuracy": 1.0,
+        "blankslate": true,
+        "chrome": false
+      },
+      {
+        "filename": "accent_08_noise_accent.wav",
+        "description": "Noise + accent",
+        "expected": "Blank Slate open the Chrome browser and search for something",
+        "transcription": "BlankSlate open the Chrome browser and search for something.",
+        "latency": 0.500014066696167,
+        "accuracy": 1.0,
+        "blankslate": true,
+        "chrome": true
+      },
+      {
+        "filename": "accent_09_proper_noun.wav",
+        "description": "Proper noun: Cursor",
+        "expected": "switch to Cursor and open the terminal",
+        "transcription": "Switch to cursor and open the terminal.",
+        "latency": 0.45723605155944824,
+        "accuracy": 1.0,
+        "blankslate": false,
+        "chrome": false
+      },
+      {
+        "filename": "accent_10_full_command.wav",
+        "description": "Complex command",
+        "expected": "Blank Slate, list all the open windows, then switch to notepad and type some text",
+        "transcription": "BlankSlate, list all the open windows, then switch to Notepad and type some text.",
+        "latency": 0.6663477420806885,
+        "accuracy": 1.0,
+        "blankslate": true,
+        "chrome": false
+      }
+    ]
+  },
+  "medium.en": {
+    "load_time": 5.625757455825806,
+    "avg_latency": 1.0086498498916625,
+    "avg_accuracy": 0.975,
+    "blankslate_pass": 6,
+    "chrome_pass": 3,
+    "results": [
+      {
+        "filename": "accent_01_wake_alone.wav",
+        "description": "Wake word alone",
+        "expected": "Blank Slate",
+        "transcription": "BlankSlate",
+        "latency": 0.7167952060699463,
+        "accuracy": 1.0,
+        "blankslate": true,
+        "chrome": false
+      },
+      {
+        "filename": "accent_02_wake_command.wav",
+        "description": "Wake + command",
+        "expected": "Blank Slate, open notepad",
+        "transcription": "BlankSlate Open Notepad",
+        "latency": 0.8765866756439209,
+        "accuracy": 0.75,
+        "blankslate": true,
+        "chrome": false
+      },
+      {
+        "filename": "accent_03_retroflex_t.wav",
+        "description": "Retroflex T/D",
+        "expected": "switch to Chrome and type the text",
+        "transcription": "Switch to Chrome and type the text.",
+        "latency": 0.8658697605133057,
+        "accuracy": 1.0,
+        "blankslate": false,
+        "chrome": true
+      },
+      {
+        "filename": "accent_04_consonant_cluster.wav",
+        "description": "Consonant clusters",
+        "expected": "list all the open windows and switch between them",
+        "transcription": "List all the open windows and switch between them.",
+        "latency": 0.9956281185150146,
+        "accuracy": 1.0,
+        "blankslate": false,
+        "chrome": false
+      },
+      {
+        "filename": "accent_05_app_names.wav",
+        "description": "App names",
+        "expected": "open Visual Studio Code and switch to Chrome",
+        "transcription": "Open Visual Studio Code and switch to Chrome.",
+        "latency": 0.9455265998840332,
+        "accuracy": 1.0,
+        "blankslate": false,
+        "chrome": true
+      },
+      {
+        "filename": "accent_06_longer_command.wav",
+        "description": "Longer command",
+        "expected": "Blank Slate, can you please open the notepad application and type hello world in it",
+        "transcription": "BlankSlate, can you please open the Notepad application and type hello world in it.",
+        "latency": 1.2850582599639893,
+        "accuracy": 1.0,
+        "blankslate": true,
+        "chrome": false
+      },
+      {
+        "filename": "accent_07_conversational.wav",
+        "description": "Conversational",
+        "expected": "hey Blank Slate what time is it right now",
+        "transcription": "Hey BlankSlate, what time is it right now?",
+        "latency": 1.0923447608947754,
+        "accuracy": 1.0,
+        "blankslate": true,
+        "chrome": false
+      },
+      {
+        "filename": "accent_08_noise_accent.wav",
+        "description": "Noise + accent",
+        "expected": "Blank Slate open the Chrome browser and search for something",
+        "transcription": "BlankSlate open the Chrome browser and search for something.",
+        "latency": 1.0725512504577637,
+        "accuracy": 1.0,
+        "blankslate": true,
+        "chrome": true
+      },
+      {
+        "filename": "accent_09_proper_noun.wav",
+        "description": "Proper noun: Cursor",
+        "expected": "switch to Cursor and open the terminal",
+        "transcription": "Switch to cursor and open the terminal.",
+        "latency": 0.9335153102874756,
+        "accuracy": 1.0,
+        "blankslate": false,
+        "chrome": false
+      },
+      {
+        "filename": "accent_10_full_command.wav",
+        "description": "Complex command",
+        "expected": "Blank Slate, list all the open windows, then switch to notepad and type some text",
+        "transcription": "BlankSlate, list all the open windows, then switch to Notepad and type some text.",
+        "latency": 1.3026225566864014,
+        "accuracy": 1.0,
+        "blankslate": true,
+        "chrome": false
+      }
+    ]
+  }
+}

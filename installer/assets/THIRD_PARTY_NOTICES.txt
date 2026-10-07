@@ -1,0 +1,105 @@
+BlankSlate for Windows - Third-Party Notices
+============================================
+
+This product bundles third-party software, model weights and media.
+Full license texts for bundled Python packages ship inside
+daemon\_internal\*.dist-info\ (LICENSE / licenses\ directories).
+
+Application
+-----------
+BlankSlate (this application) - (c) BlankSlate
+
+User interface shell
+--------------------
+Tauri (Rust application framework) - MIT/Apache-2.0
+WebView2 Runtime (Microsoft) - proprietary Microsoft terms;
+    installed automatically from Microsoft's Evergreen Bootstrapper if missing.
+
+Ollama (local model runtime, daemon\ and ollama\ payload)
+----------------------------------------------------------
+Ollama - MIT License - (c) Ollama, Inc.
+    https://github.com/ollama/ollama
+
+Python runtime packages (daemon\_internal)
+-------------------------------------------
+accelerate - Apache-2.0
+beautifulsoup4 - MIT
+click - BSD-3-Clause
+comtypes - MIT
+cryptography - Apache-2.0 / BSD-3-Clause
+ctranslate2 - MIT - (c) OpenNMT
+ddgs - MIT
+fastapi - MIT
+faster-whisper - MIT - (c) Systran
+filelock - Unlicense
+huggingface_hub - Apache-2.0
+httpx - BSD-3-Clause
+jieba - MIT
+jsonschema - MIT
+librosa - ISC
+markupsafe - MIT
+mss - MIT
+nltk - Apache-2.0
+numpy - BSD-3-Clause
+nvidia-ml-py - BSD-3-Clause
+onnxruntime - MIT - (c) Microsoft
+opencv-python - Apache-2.0
+packaging - Apache-2.0 / BSD-2-Clause
+pillow - MIT-CMU
+protobuf - BSD-3-Clause
+psutil - BSD-3-Clause
+pocket_tts (code) - MIT - (c) Kyutai
+pycaw - MIT
+pydantic - MIT
+pynput - LGPL-3.0 (library is dynamically linked; license text in
+    _internal\pynput-1.8.2.dist-info\)
+pyyaml - MIT
+rapidocr-onnxruntime - Apache-2.0
+regex - Apache-2.0
+requests - Apache-2.0
+safetensors - Apache-2.0
+scikit-learn - BSD-3-Clause
+sentencepiece - Apache-2.0
+sounddevice - MIT
+soundfile - BSD-3-Clause
+sqlite-vec - MIT / Apache-2.0
+starlette - BSD-3-Clause
+sudachipy, sudachidict_core - Apache-2.0
+tensorboard - Apache-2.0
+tokenizers - Apache-2.0
+torch, torchaudio, torchvision - BSD-3-Clause - (c) PyTorch contributors;
+    includes NVIDIA CUDA 12 and cuDNN 9 runtime libraries
+    (cudart64_12.dll, cudnn64_9.dll, ...) under the NVIDIA CUDA EULA
+    (https://docs.nvidia.com/cuda/eula/)
+tqdm - MPL-2.0 AND MIT
+uvicorn - BSD-3-Clause
+watchdog - Apache-2.0
+webrtcvad - MIT
+werkzeug - BSD-3-Clause
+
+Frozen executable
+-----------------
+BlankSlate daemon was frozen with PyInstaller - MIT
+
+Bundled model weights (seeds\ -> user model caches)
+----------------------------------------------------
+qwen2.5:0.5b (Ollama) - Apache-2.0 - (c) Alibaba / Qwen Team
+    https://huggingface.co/Qwen
+moondream (Ollama) - Apache-2.0 - (c) Vikhyat
+    https://huggingface.co/vikhyat/moondream
+nomic-embed-text (Ollama) - Apache-2.0 - (c) Nomic AI
+    https://huggingface.co/nomic-ai/nomic-embed-text-v1.5
+faster-whisper-small.en - MIT - (c) Systran
+    https://huggingface.co/Systran/faster-whisper-small.en
+Pocket TTS model weights (kyutai/pocket-tts and
+kyutai/pocket-tts-without-voice-cloning) - CC-BY-4.0 - (c) Kyutai
+
+    Pocket TTS by Kyutai (https://kyutai.org). Licensed under
+    Creative Commons Attribution 4.0 International (CC BY 4.0).
+    Changes were made to the weight files.
+    https://creativecommons.org/licenses/by/4.0/
+
+Audio / image reference data
+----------------------------
+voice_ref_friday_clean.wav - voice reference recorded for this project;
+    no third-party attribution required.

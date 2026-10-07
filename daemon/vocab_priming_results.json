@@ -1,0 +1,30 @@
+{
+  "no_prompt_general": {
+    "avg_lat": 0.41530869007110593,
+    "avg_acc": 0.9273809523809522,
+    "bs": 5,
+    "chrome": 0,
+    "n": 10
+  },
+  "no_prompt_accent": {
+    "avg_lat": 0.4304043451944987,
+    "avg_acc": 1.0,
+    "bs": 3,
+    "chrome": 2,
+    "n": 6
+  },
+  "with_prompt_general": {
+    "avg_lat": 0.3915882587432861,
+    "avg_acc": 0.9273809523809522,
+    "bs": 5,
+    "chrome": 0,
+    "n": 10
+  },
+  "with_prompt_accent": {
+    "avg_lat": 0.4068426688512166,
+    "avg_acc": 1.0,
+    "bs": 3,
+    "chrome": 2,
+    "n": 6
+  }
+}

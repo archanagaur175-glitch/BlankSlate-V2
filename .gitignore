@@ -1,0 +1,44 @@
+# --- secrets / runtime state ---
+daemon/data/
+ipc_token
+*.dpapi
+*.cred
+
+# --- large build artifacts (rebuilt / uploaded as GitHub Release assets) ---
+installer/output/
+installer/staging/
+daemon/dist/
+daemon/build/
+hud/dist/
+hud/src-tauri/target/
+
+# --- downloaded models (several GB) ---
+daemon/models/
+
+# --- python ---
+__pycache__/
+*.pyc
+*.pyo
+*.spec.bak
+
+# --- node ---
+node_modules/
+
+# --- logs ---
+*.log
+*.log.err
+daemon/logs/
+
+# --- test audio ---
+*.wav
+*.mp3
+daemon/test_audio/
+daemon/test_audio_accent/
+daemon/test_audio_accent_v2/
+daemon/test_live_accent/
+
+# --- os / editor ---
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/

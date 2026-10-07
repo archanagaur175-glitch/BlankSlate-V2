@@ -1,0 +1,115 @@
+@import "tailwindcss";
+@import "./styles/tokens.css";
+
+@theme inline {
+  --color-white: var(--bs-white);
+  --color-black: var(--bs-black);
+  --color-amber-200: var(--bs-amber-200);
+  --color-amber-300: var(--bs-amber-300);
+  --color-amber-400: var(--bs-amber-400);
+  --color-amber-500: var(--bs-amber-500);
+  --color-cyan-200: var(--bs-cyan-200);
+  --color-cyan-300: var(--bs-cyan-300);
+  --color-cyan-400: var(--bs-cyan-400);
+  --color-cyan-500: var(--bs-cyan-500);
+  --color-cyan-950: var(--bs-cyan-950);
+  --color-emerald-200: var(--bs-emerald-200);
+  --color-emerald-300: var(--bs-emerald-300);
+  --color-emerald-400: var(--bs-emerald-400);
+  --color-emerald-500: var(--bs-emerald-500);
+  --color-emerald-950: var(--bs-emerald-950);
+  --color-fuchsia-300: var(--bs-fuchsia-300);
+  --color-fuchsia-400: var(--bs-fuchsia-400);
+  --color-fuchsia-500: var(--bs-fuchsia-500);
+  --color-rose-200: var(--bs-rose-200);
+  --color-rose-300: var(--bs-rose-300);
+  --color-rose-400: var(--bs-rose-400);
+  --color-rose-500: var(--bs-rose-500);
+  --color-teal-300: var(--bs-teal-300);
+  --color-teal-400: var(--bs-teal-400);
+  --color-teal-500: var(--bs-teal-500);
+  --color-violet-200: var(--bs-violet-200);
+  --color-violet-300: var(--bs-violet-300);
+  --color-violet-400: var(--bs-violet-400);
+  --color-violet-500: var(--bs-violet-500);
+  --color-zinc-100: var(--bs-zinc-100);
+  --color-zinc-300: var(--bs-zinc-300);
+  --color-zinc-400: var(--bs-zinc-400);
+  --color-zinc-500: var(--bs-zinc-500);
+  --color-zinc-600: var(--bs-zinc-600);
+  --color-zinc-700: var(--bs-zinc-700);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background: var(--bs-bg-app);
+}
+
+body {
+  color: var(--bs-text-primary);
+  font-family: "JetBrains Mono", "Segoe UI", monospace;
+  overflow: hidden;
+}
+
+/* Glass HUD shell — lets the OS Mica/acrylic backdrop show through. */
+.hud-root {
+  background: linear-gradient(180deg, var(--bs-glass-from), var(--bs-glass-to));
+  backdrop-filter: blur(28px) saturate(140%);
+  -webkit-backdrop-filter: blur(28px) saturate(140%);
+  border: 1px solid var(--bs-border-subtle);
+  border-radius: var(--bs-radius-card);
+  box-shadow: inset 0 0 60px var(--bs-glow-inset);
+}
+
+/* Subtle scrollbar to match the theme. */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--bs-scrollbar-thumb);
+  border-radius: 4px;
+}
+
+/* Overlay pill window (six-feature expansion, Phase 1): this webview's
+   page chrome is fully transparent — only the pill itself paints. */
+body.overlay-mode,
+body.overlay-mode #root {
+  background: transparent;
+}
+.overlay-pill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 0 16px;
+  background-color: var(--bs-pill-bg);
+  background-image: linear-gradient(
+    180deg,
+    color-mix(in oklab, var(--bs-white) 6%, transparent),
+    transparent 45%
+  );
+  border: 1px solid var(--bs-pill-border);
+  border-radius: var(--bs-radius-pill);
+  outline: 1px solid color-mix(in oklab, var(--bs-emerald-400) 35%, transparent);
+  outline-offset: -1px;
+  color: var(--bs-pill-text);
+  font-family: "JetBrains Mono", "Segoe UI", monospace;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-shadow:
+    var(--bs-shadow-pill),
+    0 0 16px -6px var(--bs-cyan-400),
+    inset 0 1px 0 color-mix(in oklab, var(--bs-white) 8%, transparent);
+}

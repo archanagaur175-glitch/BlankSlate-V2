@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlankSlate</title>
+    <script>
+      (function () {
+        var t = null;
+        try {
+          t = localStorage.getItem("bs-theme");
+        } catch (e) {}
+        if (t !== "dark" && t !== "light") {
+          t = "dark";
+        }
+        var r = document.documentElement;
+        r.setAttribute("data-theme", t);
+        r.style.colorScheme = t;
+        r.style.backgroundColor =
+          t === "light" ? "rgba(241, 245, 249, 0.95)" : "rgba(10, 10, 22, 0.9)";
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
